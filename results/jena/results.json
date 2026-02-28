@@ -1,0 +1,62 @@
+{
+  "vanilla_gan": {
+    "FID": 0.5090190254523458,
+    "MMD": 0.029624203220009804,
+    "Wasserstein": 0.4258042573928833,
+    "JS_Divergence": 0.34243902162933876,
+    "KS_Statistic": 0.22847222222222222,
+    "ACF_Similarity": 0.7927672990945763,
+    "PSD_Similarity": 0.9940246543643028,
+    "Composite_Score": 0.6511293823795988
+  },
+  "wgan_gp": {
+    "FID": 1.1072453418040864,
+    "MMD": 0.12050046771764755,
+    "Wasserstein": 0.17519254982471466,
+    "JS_Divergence": 0.016979553287827267,
+    "KS_Statistic": 0.10501388888888885,
+    "ACF_Similarity": 0.716208307208884,
+    "PSD_Similarity": 0.9927186934663695,
+    "Composite_Score": 0.7452848972494396
+  },
+  "tts_gan": {
+    "FID": 3.9467151335200215,
+    "MMD": 0.1744890809059143,
+    "Wasserstein": 0.4686993360519409,
+    "JS_Divergence": 0.3336189693646128,
+    "KS_Statistic": 0.3114861111111111,
+    "ACF_Similarity": 0.8080929960334472,
+    "PSD_Similarity": 0.9905998165193329,
+    "Composite_Score": 0.6636428425732798
+  },
+  "sig_wgan": {
+    "FID": 8.780554475627115,
+    "MMD": 0.8657965064048767,
+    "Wasserstein": 0.9663567543029785,
+    "JS_Divergence": 0.31905649566028377,
+    "KS_Statistic": 0.526875,
+    "ACF_Similarity": 0.4753488474652587,
+    "PSD_Similarity": 0.9899974389671428,
+    "Composite_Score": 0.5555116708282145
+  },
+  "sisvae": {
+    "FID": 5.9104122132360075,
+    "MMD": 0.41878223419189453,
+    "Wasserstein": 0.7228609919548035,
+    "JS_Divergence": 0.43268622751067215,
+    "KS_Statistic": 0.41611111111111115,
+    "ACF_Similarity": 0.506307505611992,
+    "PSD_Similarity": 0.9919083254435729,
+    "Composite_Score": 0.5253334225873214
+  },
+  "oscillatory_bifurcation_gan": {
+    "FID": 3.3541576145651137,
+    "MMD": 0.5986841917037964,
+    "Wasserstein": 0.6593980193138123,
+    "JS_Divergence": 0.3588687034009364,
+    "KS_Statistic": 0.4409444444444444,
+    "ACF_Similarity": 0.5719803177118812,
+    "PSD_Similarity": 0.9900358417897746,
+    "Composite_Score": 0.4995504946175569
+  }
+}
