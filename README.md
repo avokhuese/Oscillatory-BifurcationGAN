@@ -125,30 +125,30 @@ Publication-quality figure generation:
 git clone https://github.com/yourusername/O-BGAN2.0.git
 cd O-BGAN2.0
 
-#Create virtual environment
+2. **Create virtual environment**
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
-#Install dependencies
+3. **Install dependencies**
 pip install -r requirements.txt
 
-#Quick start
+4. **Quick start**
 python run.py --quick
 
-#Full benchmark
+5. **Full benchmark**
 python run.py
 
-#Ablation Study
+6. **Ablation Study**
 python run_ablation.py
 
-#Training Dynamics Analysis
+7. **Training Dynamics Analysis**
 python run_training_analysis.py
 
 
-#Generate Figures
+8. **Generate Figures**
 python generate_figures.py
 
-# Acknowledgments
+9. # Acknowledgments
 - Max Planck Institute for Biogeochemistry for the Jena Climate Data
 
 - Cryptocurrency exchanges for providing USDT trading data
@@ -168,3 +168,4 @@ For questions or collaborations
 - Email: avokhuese@gmail.com or alexander.victor4@mail.dcu.ie
 
 - Github: @avokhuese
+
