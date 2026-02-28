@@ -1,0 +1,62 @@
+{
+  "vanilla_gan": {
+    "FID": 1.0160337804773867,
+    "MMD": 0.0440085344016552,
+    "Wasserstein": 0.17511047422885895,
+    "JS_Divergence": 0.19530433436554415,
+    "KS_Statistic": 0.35972088030059046,
+    "ACF_Similarity": 0.3991074617797816,
+    "PSD_Similarity": 0.9913184915054982,
+    "Composite_Score": 0.7927944661488651
+  },
+  "wgan_gp": {
+    "FID": 3.5000588920538207,
+    "MMD": 0.2069116085767746,
+    "Wasserstein": 0.23381002247333527,
+    "JS_Divergence": 0.2623506863065585,
+    "KS_Statistic": 0.5257326892109501,
+    "ACF_Similarity": 0.39960854690298414,
+    "PSD_Similarity": 0.9914054694540185,
+    "Composite_Score": 0.6575095696377701
+  },
+  "tts_gan": {
+    "FID": 1.7927738065906687,
+    "MMD": 0.1893090009689331,
+    "Wasserstein": 0.28101345896720886,
+    "JS_Divergence": 0.37892635037699085,
+    "KS_Statistic": 0.6495759527643585,
+    "ACF_Similarity": 0.8028202801001161,
+    "PSD_Similarity": 0.9883094473890691,
+    "Composite_Score": 0.7254602092327892
+  },
+  "sig_wgan": {
+    "FID": 3.4607933636534938,
+    "MMD": 0.3528304994106293,
+    "Wasserstein": 0.410689115524292,
+    "JS_Divergence": 0.44140577874248477,
+    "KS_Statistic": 0.776833064949007,
+    "ACF_Similarity": 0.3712730457541939,
+    "PSD_Similarity": 0.9915882964462494,
+    "Composite_Score": 0.6580686938243866
+  },
+  "sisvae": {
+    "FID": 2.3372430695206874,
+    "MMD": 0.33752214908599854,
+    "Wasserstein": 0.41457805037498474,
+    "JS_Divergence": 0.5460624838847629,
+    "KS_Statistic": 0.8523886205045624,
+    "ACF_Similarity": 0.4136849787783769,
+    "PSD_Similarity": 0.9921102239761518,
+    "Composite_Score": 0.547936259069596
+  },
+  "oscillatory_bifurcation_gan": {
+    "FID": 1.0287638327533244,
+    "MMD": 0.035877030342817307,
+    "Wasserstein": 0.16064508259296417,
+    "JS_Divergence": 0.46877894121397984,
+    "KS_Statistic": 0.6893183038110574,
+    "ACF_Similarity": 0.7661819434488629,
+    "PSD_Similarity": 0.990543055820145,
+    "Composite_Score": 0.5814552430533947
+  }
+}
