@@ -1,0 +1,8 @@
+Configuration,Bifurcation,Oscillators,Coupling,Multiscale,Noise,Composite Score,±,FID,Wasserstein,ACF Sim,PSD Sim
+Vanilla GAN Baseline,✗,✗,✗,✗,✗,0.792,±0.024,1.227,0.173,0.386,0.992
+No Multiscale,✓,✓,✓,✗,✓,0.776,±0.015,0.556,0.092,0.452,0.993
+No Bifurcation,✗,✓,✓,✓,✓,0.765,±0.009,0.662,0.116,0.542,0.993
+No Oscillators,✓,✗,✗,✓,✓,0.763,±0.015,0.716,0.114,0.565,0.994
+Full Oscillatory BifurcationGAN,✓,✓,✓,✓,✓,0.747,±0.055,1.014,0.157,0.601,0.994
+No Noise,✓,✓,✓,✓,✗,0.720,±0.033,0.962,0.179,0.596,0.994
+No Coupling,✓,✓,✗,✓,✓,0.714,±0.030,0.886,0.169,0.574,0.993
