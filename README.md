@@ -1,11 +1,11 @@
 # Oscillatory BifurcationGAN: Advanced Time Series Augmentation Framework
 
-## 📋 Title
+## Title
 **Oscillatory Bifurcation Generative Adversarial Network (O-BGAN) for Multivariate Time Series Augmentation**
 
-## 📝 Description
+## Description
 
-This repository contains a comprehensive PhD-level framework for time series data augmentation using novel Generative Adversarial Network architectures. The core innovation is the **Oscillatory BifurcationGAN**, which combines dynamical systems theory with deep learning to generate high-quality synthetic time series data. The framework implements 7 state-of-the-art GAN variants for comprehensive benchmarking:
+This repository contains a comprehensive framework for time series data augmentation using novel Generative Adversarial Network architectures. The core innovation is the **Oscillatory BifurcationGAN**, which combines dynamical systems theory with deep learning to generate high-quality synthetic time series data. The framework implements 7 state-of-the-art GAN variants for comprehensive benchmarking:
 
 1. **Oscillatory BifurcationGAN** (Our novel architecture)
 2. Vanilla GAN
@@ -20,30 +20,30 @@ The models are evaluated on 3 diverse real-world datasets:
 - **USDT Cryptocurrency Data**: Financial time series with 5 features (OHLCV)
 - **Humidity Sensor Data**: Environmental sensor readings with daily cycles
 
-## 📊 Dataset Information
+## Dataset Information
 
 ### 1. Jena Climate Dataset
 - **Source**: Max Planck Institute for Biogeochemistry
 - **Description**: Daily minimum temperatures recorded in Jena, Germany
 - **Characteristics**: Univariate time series with strong seasonal patterns
 - **Length**: 5,000+ time points
-- **Preprocessing**: StandardScaler normalization, sequence length 24
+- **Preprocessing**: StandardScaler normalization
 
 ### 2. USDT Cryptocurrency Dataset
 - **Source**: Cryptocurrency exchange data
 - **Description**: USDT-USD trading data with OHLCV (Open, High, Low, Close, Volume)
 - **Characteristics**: Multivariate (5 features), stablecoin with small variations
 - **Length**: Variable (synthetic fallback available)
-- **Preprocessing**: MinMaxScaler normalization, sequence length 24
+- **Preprocessing**: MinMaxScaler normalization
 
 ### 3. Humidity Sensor Dataset
 - **Source**: Environmental sensor network
 - **Description**: Relative humidity readings from plant sensors
 - **Characteristics**: Univariate, daily cycles with random events
 - **Length**: 10,000+ time points
-- **Preprocessing**: StandardScaler normalization, sequence length 24
+- **Preprocessing**: StandardScaler normalization
 
-## 💻 Code Information
+## Code Information
 
 ### Directory Structure
 
@@ -116,7 +116,7 @@ Publication-quality figure generation:
 - Radar charts for multi-metric comparison
 - t-SNE manifold visualization
 
-## 🚀 Usage Instructions
+## Usage Instructions
 
 ### Installation
 
@@ -166,4 +166,5 @@ python generate_figures.py
 For questions or collaborations
 
 - Email: avokhuese@gmail.com or alexander.victor4@mail.dcu.ie
+
 - Github: @avokhuese
