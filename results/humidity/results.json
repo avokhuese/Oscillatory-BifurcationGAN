@@ -1,0 +1,62 @@
+{
+  "vanilla_gan": {
+    "FID": 1.7391557204526242,
+    "MMD": 0.2935093343257904,
+    "Wasserstein": 0.7385158538818359,
+    "JS_Divergence": 0.3454638696647247,
+    "KS_Statistic": 0.4667916666666667,
+    "ACF_Similarity": 0.39270716535680644,
+    "PSD_Similarity": 0.9956696710542196,
+    "Composite_Score": 0.6215267508153653
+  },
+  "wgan_gp": {
+    "FID": 0.15006183300127554,
+    "MMD": 0.05862494185566902,
+    "Wasserstein": 0.172620952129364,
+    "JS_Divergence": 0.04690080841841788,
+    "KS_Statistic": 0.13916666666666663,
+    "ACF_Similarity": 0.32656572717440013,
+    "PSD_Similarity": 0.9939536081184581,
+    "Composite_Score": 0.6948222494577362
+  },
+  "tts_gan": {
+    "FID": 0.8496695816430563,
+    "MMD": 0.19748197495937347,
+    "Wasserstein": 0.5160425305366516,
+    "JS_Divergence": 0.4063731711932734,
+    "KS_Statistic": 0.32126388888888885,
+    "ACF_Similarity": 0.5843647161022495,
+    "PSD_Similarity": 0.9892107763025707,
+    "Composite_Score": 0.5726270766505593
+  },
+  "sig_wgan": {
+    "FID": 4.862614466152471,
+    "MMD": 0.5598520636558533,
+    "Wasserstein": 0.8293135762214661,
+    "JS_Divergence": 0.3469613372759153,
+    "KS_Statistic": 0.45902777777777776,
+    "ACF_Similarity": 0.4554782432547328,
+    "PSD_Similarity": 0.9864536886832972,
+    "Composite_Score": 0.5153680581464298
+  },
+  "sisvae": {
+    "FID": 2.0200757203564956,
+    "MMD": 0.4117879867553711,
+    "Wasserstein": 0.7922992706298828,
+    "JS_Divergence": 0.4905409130659211,
+    "KS_Statistic": 0.43606944444444445,
+    "ACF_Similarity": 0.37551353052547354,
+    "PSD_Similarity": 0.9957513193549618,
+    "Composite_Score": 0.4888076145042004
+  },
+  "oscillatory_bifurcation_gan": {
+    "FID": 3.2334789281480507,
+    "MMD": 0.4254070818424225,
+    "Wasserstein": 0.881944477558136,
+    "JS_Divergence": 0.4704775495855174,
+    "KS_Statistic": 0.5919305555555555,
+    "ACF_Similarity": 0.2584356095976707,
+    "PSD_Similarity": 0.9898262591998668,
+    "Composite_Score": 0.4297358352435155
+  }
+}
