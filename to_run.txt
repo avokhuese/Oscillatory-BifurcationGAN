@@ -1,0 +1,30 @@
+# Setup
+python run.py --setup
+
+# Quick test
+python run.py --quick
+
+# Full benchmark
+python run.py
+
+# Single dataset
+python run.py --dataset jena
+
+# Custom configuration
+python run.py --dataset usdt --models oscillatory_bifurcation_gan wgan_gp --epochs 200
+
+
+# Run on all three datasets (default)
+python run_ablation.py
+
+# Run on specific datasets
+python run_ablation.py --datasets jena usdt
+
+# Run with custom epochs
+python run_ablation.py --datasets jena humidity --epochs 200
+
+# Skip datasets that already have results
+python run_ablation.py --skip_existing
+
+# Save to custom output directory
+python run_ablation.py --output_dir ./my_ablation_results

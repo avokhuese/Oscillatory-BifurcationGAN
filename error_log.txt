@@ -1,0 +1,24 @@
+Error at 2026-02-26 15:37:48.106011
+Found input variables with inconsistent numbers of samples: [6960, 14500]
+Traceback (most recent call last):
+  File "/home/alexander/Documents/O-BGAN2.0/run_experiments.py", line 54, in main
+    runner.run_all()
+  File "/home/alexander/Documents/O-BGAN2.0/main.py", line 393, in run_all
+    self.train_all_models(dataset_name)
+  File "/home/alexander/Documents/O-BGAN2.0/main.py", line 133, in train_all_models
+    metrics = trainer.evaluate(val_loader)
+  File "/home/alexander/Documents/O-BGAN2.0/trainers.py", line 131, in evaluate
+    metrics = self.ts_metrics.calculate_basic_metrics(real_np, fake_np)
+  File "/home/alexander/Documents/O-BGAN2.0/metrics.py", line 113, in calculate_basic_metrics
+    metrics['MAE'] = mean_absolute_error(real_flat, pred_flat)
+  File "/home/alexander/Documents/.venv/lib/python3.10/site-packages/sklearn/utils/_param_validation.py", line 216, in wrapper
+    return func(*args, **kwargs)
+  File "/home/alexander/Documents/.venv/lib/python3.10/site-packages/sklearn/metrics/_regression.py", line 277, in mean_absolute_error
+    _check_reg_targets_with_floating_dtype(
+  File "/home/alexander/Documents/.venv/lib/python3.10/site-packages/sklearn/metrics/_regression.py", line 198, in _check_reg_targets_with_floating_dtype
+    y_type, y_true, y_pred, multioutput = _check_reg_targets(
+  File "/home/alexander/Documents/.venv/lib/python3.10/site-packages/sklearn/metrics/_regression.py", line 104, in _check_reg_targets
+    check_consistent_length(y_true, y_pred)
+  File "/home/alexander/Documents/.venv/lib/python3.10/site-packages/sklearn/utils/validation.py", line 475, in check_consistent_length
+    raise ValueError(
+ValueError: Found input variables with inconsistent numbers of samples: [6960, 14500]
