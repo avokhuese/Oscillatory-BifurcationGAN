@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Oscillatory BifurcationGAN: Advanced Time Series Augmentation Framework
 
 ## Title
