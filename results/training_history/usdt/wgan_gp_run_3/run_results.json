@@ -1,0 +1,15 @@
+{
+  "model": "wgan_gp",
+  "run": 3,
+  "metrics": {
+    "FID": 0.741739105954351,
+    "MMD": 0.06301379203796387,
+    "Wasserstein": 0.17145340144634247,
+    "JS_Divergence": 0.30180347911313454,
+    "KS_Statistic": 0.5931723027375202,
+    "ACF_Similarity": 0.43671272010283957,
+    "PSD_Similarity": 0.9928765793251604,
+    "Composite_Score": 0.6545855981426558
+  },
+  "history_file": "./results/training_history/usdt/wgan_gp_run_3/final_history.json"
+}

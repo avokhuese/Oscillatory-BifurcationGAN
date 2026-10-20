@@ -1,0 +1,15 @@
+{
+  "model": "vanilla_gan",
+  "run": 3,
+  "metrics": {
+    "FID": 3.4122584022159588,
+    "MMD": 0.4124796986579895,
+    "Wasserstein": 1.0517066717147827,
+    "JS_Divergence": 0.44839006875310783,
+    "KS_Statistic": 0.6335416666666667,
+    "ACF_Similarity": 0.537991102085142,
+    "PSD_Similarity": 0.9967239274074328,
+    "Composite_Score": 0.5950013840627644
+  },
+  "history_file": "./results/training_history/humidity/vanilla_gan_run_3/final_history.json"
+}

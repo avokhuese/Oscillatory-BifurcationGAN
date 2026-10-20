@@ -1,0 +1,15 @@
+{
+  "model": "wgan_gp",
+  "run": 3,
+  "metrics": {
+    "FID": 0.3497901871552933,
+    "MMD": 0.08612591028213501,
+    "Wasserstein": 0.2928943634033203,
+    "JS_Divergence": 0.0731819249796587,
+    "KS_Statistic": 0.22895833333333326,
+    "ACF_Similarity": 0.42347925475888915,
+    "PSD_Similarity": 0.994742352967503,
+    "Composite_Score": 0.6996933951986655
+  },
+  "history_file": "./results/training_history/humidity/wgan_gp_run_3/final_history.json"
+}

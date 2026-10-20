@@ -1,0 +1,15 @@
+{
+  "model": "sig_wgan",
+  "run": 1,
+  "metrics": {
+    "FID": 3.4182044451778624,
+    "MMD": 0.38229405879974365,
+    "Wasserstein": 0.4424612522125244,
+    "JS_Divergence": 0.4779371302493489,
+    "KS_Statistic": 0.8104347826086956,
+    "ACF_Similarity": 0.4058704584438142,
+    "PSD_Similarity": 0.9911634998796576,
+    "Composite_Score": 0.6477268845407879
+  },
+  "history_file": "./results/training_history/usdt/sig_wgan_run_1/final_history.json"
+}

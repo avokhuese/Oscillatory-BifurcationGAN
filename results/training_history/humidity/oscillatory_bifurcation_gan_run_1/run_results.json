@@ -1,0 +1,15 @@
+{
+  "model": "oscillatory_bifurcation_gan",
+  "run": 1,
+  "metrics": {
+    "FID": 4.477523327195303,
+    "MMD": 0.5830093622207642,
+    "Wasserstein": 1.132045030593872,
+    "JS_Divergence": 0.6124167559331832,
+    "KS_Statistic": 0.7757916666666667,
+    "ACF_Similarity": -0.04741172766474566,
+    "PSD_Similarity": 0.9900429867777447,
+    "Composite_Score": 0.28393076060711997
+  },
+  "history_file": "./results/training_history/humidity/oscillatory_bifurcation_gan_run_1/final_history.json"
+}

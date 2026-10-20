@@ -1,0 +1,15 @@
+{
+  "model": "vanilla_gan",
+  "run": 3,
+  "metrics": {
+    "FID": 0.5641956213030436,
+    "MMD": 0.025581687688827515,
+    "Wasserstein": 0.4289061725139618,
+    "JS_Divergence": 0.3468641378429915,
+    "KS_Statistic": 0.22341666666666665,
+    "ACF_Similarity": 0.8506615417190126,
+    "PSD_Similarity": 0.9956612466618322,
+    "Composite_Score": 0.6553203603028535
+  },
+  "history_file": "./results/training_history/jena/vanilla_gan_run_3/final_history.json"
+}

@@ -1,0 +1,15 @@
+{
+  "model": "sisvae",
+  "run": 2,
+  "metrics": {
+    "FID": 2.298592102347297,
+    "MMD": 0.325475811958313,
+    "Wasserstein": 0.4084738790988922,
+    "JS_Divergence": 0.5412462689952958,
+    "KS_Statistic": 0.844573268921095,
+    "ACF_Similarity": 0.4062748997115742,
+    "PSD_Similarity": 0.9932095785462414,
+    "Composite_Score": 0.5504608384801803
+  },
+  "history_file": "./results/training_history/usdt/sisvae_run_2/final_history.json"
+}

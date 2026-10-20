@@ -1,0 +1,15 @@
+{
+  "model": "tts_gan",
+  "run": 3,
+  "metrics": {
+    "FID": 0.5106768072266368,
+    "MMD": 0.07163047790527344,
+    "Wasserstein": 0.39318403601646423,
+    "JS_Divergence": 0.3434680869444931,
+    "KS_Statistic": 0.2825416666666667,
+    "ACF_Similarity": 0.5142185583938177,
+    "PSD_Similarity": 0.9893377346616412,
+    "Composite_Score": 0.6271419418901302
+  },
+  "history_file": "./results/training_history/humidity/tts_gan_run_3/final_history.json"
+}

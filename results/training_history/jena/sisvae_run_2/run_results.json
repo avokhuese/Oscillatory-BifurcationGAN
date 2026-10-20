@@ -1,0 +1,15 @@
+{
+  "model": "sisvae",
+  "run": 2,
+  "metrics": {
+    "FID": 5.817174424325806,
+    "MMD": 0.4287770986557007,
+    "Wasserstein": 0.7174685001373291,
+    "JS_Divergence": 0.42399091433380776,
+    "KS_Statistic": 0.4130833333333333,
+    "ACF_Similarity": 0.5394835487385878,
+    "PSD_Similarity": 0.9895436897279426,
+    "Composite_Score": 0.529060190767064
+  },
+  "history_file": "./results/training_history/jena/sisvae_run_2/final_history.json"
+}

@@ -1,0 +1,15 @@
+{
+  "model": "vanilla_gan",
+  "run": 1,
+  "metrics": {
+    "FID": 1.1390116931093557,
+    "MMD": 0.06376218795776367,
+    "Wasserstein": 0.20727083086967468,
+    "JS_Divergence": 0.20992289324910654,
+    "KS_Statistic": 0.43768115942028984,
+    "ACF_Similarity": 0.41109671477910387,
+    "PSD_Similarity": 0.9913079660005527,
+    "Composite_Score": 0.7822705611202654
+  },
+  "history_file": "./results/training_history/usdt/vanilla_gan_run_1/final_history.json"
+}

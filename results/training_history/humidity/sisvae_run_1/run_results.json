@@ -1,0 +1,15 @@
+{
+  "model": "sisvae",
+  "run": 1,
+  "metrics": {
+    "FID": 2.0068234379492997,
+    "MMD": 0.4162876605987549,
+    "Wasserstein": 0.7898134589195251,
+    "JS_Divergence": 0.4880254071272044,
+    "KS_Statistic": 0.43320833333333336,
+    "ACF_Similarity": 0.43770787806101563,
+    "PSD_Similarity": 0.9957398370470433,
+    "Composite_Score": 0.4937759430476676
+  },
+  "history_file": "./results/training_history/humidity/sisvae_run_1/final_history.json"
+}

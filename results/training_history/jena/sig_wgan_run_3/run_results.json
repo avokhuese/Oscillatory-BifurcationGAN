@@ -1,0 +1,15 @@
+{
+  "model": "sig_wgan",
+  "run": 3,
+  "metrics": {
+    "FID": 18.539399420753305,
+    "MMD": 0.9555308818817139,
+    "Wasserstein": 0.8619824051856995,
+    "JS_Divergence": 0.3219713495888077,
+    "KS_Statistic": 0.5597083333333334,
+    "ACF_Similarity": 0.43459983064758234,
+    "PSD_Similarity": 0.9903656824915112,
+    "Composite_Score": 0.5911862865209517
+  },
+  "history_file": "./results/training_history/jena/sig_wgan_run_3/final_history.json"
+}

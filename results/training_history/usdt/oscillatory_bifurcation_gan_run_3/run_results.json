@@ -1,0 +1,15 @@
+{
+  "model": "oscillatory_bifurcation_gan",
+  "run": 3,
+  "metrics": {
+    "FID": 0.9918526061995413,
+    "MMD": 0.033408164978027344,
+    "Wasserstein": 0.15191714465618134,
+    "JS_Divergence": 0.4396744121977349,
+    "KS_Statistic": 0.6893397745571659,
+    "ACF_Similarity": 0.794972597909146,
+    "PSD_Similarity": 0.9911170034893481,
+    "Composite_Score": 0.5952594942029706
+  },
+  "history_file": "./results/training_history/usdt/oscillatory_bifurcation_gan_run_3/final_history.json"
+}

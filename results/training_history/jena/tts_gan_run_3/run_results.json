@@ -1,0 +1,15 @@
+{
+  "model": "tts_gan",
+  "run": 3,
+  "metrics": {
+    "FID": 3.594210147886837,
+    "MMD": 0.1285831332206726,
+    "Wasserstein": 0.46158742904663086,
+    "JS_Divergence": 0.4004789290190156,
+    "KS_Statistic": 0.30508333333333326,
+    "ACF_Similarity": 0.8126424485042087,
+    "PSD_Similarity": 0.9882736771324221,
+    "Composite_Score": 0.6364007255390491
+  },
+  "history_file": "./results/training_history/jena/tts_gan_run_3/final_history.json"
+}

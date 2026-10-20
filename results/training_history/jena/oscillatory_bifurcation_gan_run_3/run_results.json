@@ -1,0 +1,15 @@
+{
+  "model": "oscillatory_bifurcation_gan",
+  "run": 3,
+  "metrics": {
+    "FID": 1.9497480367910893,
+    "MMD": 0.7258507013320923,
+    "Wasserstein": 0.44955435395240784,
+    "JS_Divergence": 0.33011296684086533,
+    "KS_Statistic": 0.2904583333333333,
+    "ACF_Similarity": 0.5466625056729271,
+    "PSD_Similarity": 0.9891136462330885,
+    "Composite_Score": 0.44106431757962783
+  },
+  "history_file": "./results/training_history/jena/oscillatory_bifurcation_gan_run_3/final_history.json"
+}

@@ -1,0 +1,15 @@
+{
+  "model": "wgan_gp",
+  "run": 1,
+  "metrics": {
+    "FID": 0.8078236801430827,
+    "MMD": 0.12104207277297974,
+    "Wasserstein": 0.13910533487796783,
+    "JS_Divergence": 0.01381139594386472,
+    "KS_Statistic": 0.07620833333333335,
+    "ACF_Similarity": 0.7559697501230861,
+    "PSD_Similarity": 0.9924186662105834,
+    "Composite_Score": 0.7482250383322337
+  },
+  "history_file": "./results/training_history/jena/wgan_gp_run_1/final_history.json"
+}

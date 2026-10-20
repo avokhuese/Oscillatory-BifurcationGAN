@@ -1,0 +1,15 @@
+{
+  "model": "sig_wgan",
+  "run": 1,
+  "metrics": {
+    "FID": 10.294534882056752,
+    "MMD": 0.8021548390388489,
+    "Wasserstein": 0.9388056397438049,
+    "JS_Divergence": 0.18191547685934095,
+    "KS_Statistic": 0.4669166666666667,
+    "ACF_Similarity": 0.5212365064935585,
+    "PSD_Similarity": 0.9857507522416216,
+    "Composite_Score": 0.6026052451985682
+  },
+  "history_file": "./results/training_history/humidity/sig_wgan_run_1/final_history.json"
+}

@@ -1,0 +1,15 @@
+{
+  "model": "tts_gan",
+  "run": 1,
+  "metrics": {
+    "FID": 0.7560163954422721,
+    "MMD": 0.07055628299713135,
+    "Wasserstein": 0.1620420217514038,
+    "JS_Divergence": 0.39423709983778,
+    "KS_Statistic": 0.5882125603864734,
+    "ACF_Similarity": 0.8172144369715912,
+    "PSD_Similarity": 0.988589338185631,
+    "Composite_Score": 0.6697012310327657
+  },
+  "history_file": "./results/training_history/usdt/tts_gan_run_1/final_history.json"
+}
