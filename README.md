@@ -1,6 +1,3 @@
-
-# Oscillatory BifurcationGAN: Advanced Time Series Augmentation Framework
-
 ## Title
 **Oscillatory Bifurcation Generative Adversarial Network (OB-GAN) for Multivariate Time Series Augmentation**
 
